@@ -52,3 +52,22 @@ you should be able to start updating your scripts. To perform the build and copy
 ```
 npm run build
 ```
+
+## Caveats
+
+### Global functions
+
+Functions that are supposed to be global functions in your script like `on_cm` or `on_message` are
+not necessarily going to be global functions after building. If you plan on using global functions
+like those, then I recommend instead writing them like this:
+
+```js
+window.on_cm = function(..) { /* code */ };
+
+window.on_message = function(..) {
+    /* code */
+};
+```
+
+Writing them like this will ensure that Adventure Land is able to load them regardless of how the
+code is combined.
