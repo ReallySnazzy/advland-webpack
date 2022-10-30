@@ -1,0 +1,1 @@
+(()=>{"use strict";game_log("Testing: "),game_log("Called from second file")})();

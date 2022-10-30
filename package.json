@@ -2,10 +2,16 @@
   "name": "advland-webpack",
   "version": "1.0.0",
   "description": "Quickly create a multiple file project for AdventureLand using webpack",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && node advland.js"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "appdata-path": "^1.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
