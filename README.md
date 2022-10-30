@@ -31,7 +31,7 @@ the script with the same name and slot number as your config before using the co
 ```
 
 You can find the file for your character under 
-`C:\Users\<username>\AppData\Roaming\Adventure Land\autosync4000000000000001\adventureland\characters` 
+`C:\Users\<username>\AppData\Roaming\Adventure Land\autosync################\adventureland\characters` 
 or by typing `/codes` in the chat window in AdventureLand.
 
 ## Installation
